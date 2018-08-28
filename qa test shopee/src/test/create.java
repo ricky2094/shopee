@@ -22,8 +22,8 @@ public class create {
 		    driver.get(baseUrl);
 		    driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/div/div[2]/a[2]")).click();
 		    driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
-		    driver.findElement(By.name("login")).sendKeys("ricky2094");
-		    driver.findElement(By.name("password")).sendKeys("@ricky2094");
+		    driver.findElement(By.name("login")).sendKeys("*******");
+		    driver.findElement(By.name("password")).sendKeys("********");
 		    driver.findElement(By.name("commit")).click();
 		    driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		    driver.findElement(By.xpath("//*[@id=\"user-links\"]/li[1]")).click();
